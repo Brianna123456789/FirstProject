@@ -1,1 +1,19 @@
 * { background-color: blue; }
+
+/* Select all paragraphs */
+p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* Select by ID */
+#Macedonia {
+  background-color: purple;
+  color: white;
+}
+
+/* Select by class */
+.countries {
+  color: white;
+  font-weight: bold;
+}
