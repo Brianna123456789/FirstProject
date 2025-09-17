@@ -17,3 +17,9 @@ p {
   color: white;
   font-weight: bold;
 }
+
+body {
+font-size:20px;
+font-family: sans-serif;
+color: #FF00FF
+}
