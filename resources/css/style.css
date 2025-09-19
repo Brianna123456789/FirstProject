@@ -23,3 +23,47 @@ font-size:20px;
 font-family: sans-serif;
 color: #FF00FF
 }
+/* Make all text on the page a bit larger and a different font */
+* {
+  font-size: 1.1rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Make main heading (h1) much bigger and bold */
+h1 {
+  font-size: 3rem;
+  font-weight: 900; /* super bold */
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* Make h2 headings a little smaller, not bold, and oblique */
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: oblique;
+  text-decoration: overline underline;
+}
+
+/* Style paragraphs */
+p {
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* Try styling a class */
+.important {
+  font-weight: bold;
+  text-decoration: underline;
+  color: red;
+}
+
+/* Try styling an id */
+#note {
+  font-style: italic;
+  color: blue;
+  text-decoration: line-through;
+}
